@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 function App() {
   const [data, setData] = useState({});
-  // Example GET API
+
   async function getData() {
     try {
       const response = await axios.get(
